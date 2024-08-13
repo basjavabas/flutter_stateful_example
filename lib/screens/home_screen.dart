@@ -11,7 +11,7 @@ class HomeScreen extends StatelessWidget {
           child: SizedBox.expand(
             child: Center(
               child: Text(
-                'Home page',
+                'Home screen',
                 // style: theme.textTheme.titleLarge,
               ),
             ),

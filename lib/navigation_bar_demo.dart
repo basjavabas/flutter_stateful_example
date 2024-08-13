@@ -117,7 +117,7 @@ class _NavigationExampleState extends State<NavigationExample> {
           ),
           NavigationDestination(
             icon: Badge(
-              label: Text('20'),
+              label: Text('200'),
               child: Icon(Icons.messenger_sharp),
             ),
             label: 'Messages',
@@ -134,8 +134,6 @@ class _NavigationExampleState extends State<NavigationExample> {
         const MessagesScreen(),
         const SettingsScreen(),
       ][currentPageIndex],
-
-      // [0,1,2][0]
     );
   }
 }
